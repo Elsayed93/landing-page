@@ -7,13 +7,12 @@ Dynamically create a navigation menu based on the sections of the page.
 
 ## what I have used to create the project 
 1- DOM manipulate methods like: <br>
-    querySelectorAll() <br>
-    getElementById <br>
-    createDocumentFragment <br>
-    Event Listener <br>
-    Event preventDefault <br>
-
-    and others ,,,, 
+    &nbsp;&nbsp;&nbsp;&nbsp; querySelectorAll() <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; getElementById <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; createDocumentFragment <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Event Listener <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Event preventDefault <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; and others,,,  <br>
 
 2- media query to make navigation bar responsive.<br>
 3- Top Button to return the user to the top of the page when scroll down.<br>
