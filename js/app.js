@@ -63,7 +63,6 @@ function topFunction() {
 
 // Toggle between adding and removing the "responsive" class to navUl
 function myFunction() {
-  console.log("navUl", navUl);
   if (navUl.className === "navUl") {
     navUl.className += " responsive";
   } else {
@@ -79,7 +78,6 @@ function myFunction() {
 
 // build the nav
 allSections.forEach((element) => {
-  // console.log(element);
   let sectionName = element.getAttribute("data-nav");
   let sectionId = element.getAttribute("id");
   let navLi = document.createElement("li"); // Create a <li> tag
