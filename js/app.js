@@ -40,6 +40,7 @@ let isScrolling;
 window.addEventListener(
   "scroll",
   function (event) {
+    scrollFunction(); // to show top button 
     // As long as the user scroll, show navBar
     navBar[0].style.display = "block";
 
@@ -54,6 +55,17 @@ window.addEventListener(
   },
   false
 );
+
+function scrollFunction() {
+  console.log(document.documentElement.scrollTop);
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    topButton.style.display = "block";
+  } else {
+    topButton.style.display = "none";
+  }
+}
+
+
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
